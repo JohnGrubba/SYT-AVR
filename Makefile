@@ -4,7 +4,7 @@ CC=avr-gcc
 OBJCOPY=avr-objcopy
 CFLAGS=-std=c99 -Wall -g -Os -mmcu=${MCU} -DF_CPU=${F_CPU} -I.
 TARGET=main
-SRCS=mainint0.c 
+SRCS=main.c 
 
 # (only for STK500=Diamex Programer)
 # Note: find out which PORT the USB is connected to	ex. com4
